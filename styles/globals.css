@@ -1,0 +1,131 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    width: 100%;
+    height: 100%;
+    background-color: #222222;
+}
+
+.LandingPage {
+    padding-top: 10rem;
+    color: #E6B45A;
+    font-family: cursive;
+  }
+  
+  .LandingPage-title {
+    font-size: 6rem;
+  }
+  
+  .LandingPage-Fade {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+  }
+  .Navigation{
+    position: fixed;
+   margin-top: 1px;
+   background-color: #e6b45a;
+   border-radius: 20rem;
+}
+   
+
+li {
+   display: inline-block;
+   list-style: none;
+   padding-right: 20px;
+   padding-left: 8px;
+   padding-bottom: 5px;
+   margin-right: 15px;
+   margin-top: 10px;
+   font-size: 20px;
+   
+   
+}
+
+#anchor{
+    color: white;
+    font-weight: bold;
+  
+   
+}
+
+a:hover{
+    color: white;
+}
+
+.About {
+  padding-top: 11rem;
+  font-family: cursive;
+  color: #E6B45A;
+}
+
+.About-Title {
+  font-size: 5rem;
+}
+
+.About-P {
+  font-size: 2rem;
+  font-family: sans-serif;
+  padding-left: 10rem;
+  padding-right: 2rem;
+  width: 85%;
+}
+
+.Contact {
+  padding-top: 4rem;
+  color: #E6B45A;
+  font-family: cursive;
+}
+
+.Contact-title {
+  font-size: 5rem;
+}
+
+.Contact-P {
+  font-size: 2rem;
+  font-family: sans-serif;
+}
+
+.Contact-Links {
+  padding-bottom: 8rem;
+}
+
+ .Project {
+   /* padding-top: 10rem;  */
+  color: #e6b45a;
+  font-family: sans-serif;
+} 
+/* .Project-Github {
+  padding-top: 10px;
+  margin-left: 30px;
+} */
+
+.Project-title {
+  font-size: 4rem;
+  font-family: cursive;
+}
+
+/* .Project-scroll {
+  margin-bottom: 1rem;
+} */
+
+.Project-content {
+  display: inline-block;
+  width: 70%;
+  margin-right: 75px;
+}
+
+.Project-content1 {
+  width: 50%;
+  display: inline-block;
+  background-color: #e6b45a;
+  color: white;
+}
+
+.Project-Portfolio4 {
+  width: 100%;
+}
+
+ 

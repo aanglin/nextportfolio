@@ -59,7 +59,7 @@ export default function Projects() {
           rel="noreferrer"
           >
           <Image
-          src="/images/pokemon.png"
+          src="/images/Pokemon.png"
           alt="..." 
           height={400}
           width={900}
@@ -118,7 +118,7 @@ export default function Projects() {
           rel="noreferrer"
           >
           <Image
-          src="/images/lotto.png" 
+          src="/images/Lotto.png" 
           alt="..."
           height={400}
           width={900}
@@ -177,7 +177,7 @@ export default function Projects() {
           rel="noreferrer"
           >
           <Image
-          src="/images/colorbox.png" 
+          src="/images/Colorbox.png" 
           alt="..."
           height={400}
           width={900}
@@ -229,7 +229,7 @@ export default function Projects() {
           </Link>
         </div>
         <Link
-          href="https://aanglin.github.io/dice"
+          href="https://aanglin.github.io/Dice"
           title="Dice"
           
         >
@@ -298,7 +298,7 @@ export default function Projects() {
           target="_blank"
           rel="noreferrer">
           <Image 
-          src="/images/coinflipper.png" 
+          src="/images/Coinflipper.png" 
           alt="..."
           height={400}
           width={900}

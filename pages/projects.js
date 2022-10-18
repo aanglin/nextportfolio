@@ -239,7 +239,7 @@ export default function Projects() {
           rel="noreferrer"
           >
           <Image
-          src="/images/dice.png" 
+          src="/images/Dice.png" 
           alt="..." 
           height={400}
           width={900}

@@ -9,17 +9,17 @@ export default function Projects() {
     <Head>
       <title>Aaron's Portfolio</title>
     </Head>
-    <div className="Project Contact grid  leading-10  place-items-center">
+    <div className="Project Contact grid  leading-10  place-items-center font-sans">
     <Bounce>
-    <h1 className="Project-title ">Projects</h1>
+    <h1 className="Project-title text-[4rem] font-cursive">Projects</h1>
     
-    <h3 className="Project-scroll mt-8">
+    <h3 className="Project-scroll mt-8 ">
       If you want to see more projects please scroll down!!
     </h3>
     <h3>You can also click the image to take you to the app site!!</h3>
     </Bounce>
-    <div className="Project-content1 m-8">
-      <div className="Project-content">
+    <div className="Project-content1 m-8 w-3/6 inline-block bg-[#e6b45a] text-white ">
+      <div className="Project-content inline-block w-[70%] mr-20 ">
         <div className="Project-Github">
           <Link
           href="https://www.github.com/aanglin/pokemon" 
@@ -68,7 +68,7 @@ export default function Projects() {
         </Link>
       </div>
 
-      <div className="Project-content">
+      <div className="Project-content inline-block w-[70%] mr-20">
           <Slide>
         <p className="Project-description text-center pl-64">
           A pokemon card game that builds on the concepts of props and how
@@ -77,8 +77,8 @@ export default function Projects() {
         </Slide>
       </div>
     </div>
-    <div className="Project-content1 m-8">
-      <div className="Project-content">
+    <div className="Project-content1 m-8 w-3/6 inline-block bg-[#e6b45a] text-white">
+      <div className="Project-content inline-block w-[70%] mr-20">
         <div className="Project-Github">
           <Link
            href="https://www.github.com/aanglin/lotto" 
@@ -127,7 +127,7 @@ export default function Projects() {
         </Link>
       </div>
 
-      <div className="Project-content">
+      <div className="Project-content inline-block w-[70%] mr-20">
         <Slide>
         <p className="Project-description text-center pl-64">
           This lotto program is a training reference for react using state and
@@ -137,8 +137,8 @@ export default function Projects() {
         </Slide>
       </div>
     </div>
-    <div className="Project-content1 m-8">
-      <div className="Project-content">
+    <div className="Project-content1 m-8 w-3/6 inline-block bg-[#e6b45a] text-white">
+      <div className="Project-content inline-block w-[70%] mr-20">
         <div className="Project-Github">
           <Link
           href="https://www.github.com/aanglin/colorbox" 
@@ -186,7 +186,7 @@ export default function Projects() {
         </Link>
       </div>
 
-      <div className="Project-content">
+      <div className="Project-content inline-block w-[70%] mr-20">
         <Slide>
         <p className="Project-description text-center pl-64">
         
@@ -198,8 +198,8 @@ export default function Projects() {
         </Slide>
       </div>
     </div>
-    <div className="Project-content1 m-8">
-      <div className="Project-content">
+    <div className="Project-content1 m-8 w-3/6 inline-block bg-[#e6b45a] text-white">
+      <div className="Project-content inline-block w-[70%] mr-20">
         <div className="Project-Github">
           <Link 
           href="https://www.github.com/aanglin/dice"
@@ -248,7 +248,7 @@ export default function Projects() {
         </Link>
       </div>
 
-      <div className="Project-content">
+      <div className="Project-content inline-block w-[70%] mr-20">
         <Slide>
         <p className="Project-description text-center pl-64">
           
@@ -259,8 +259,8 @@ export default function Projects() {
         </Slide>
       </div>
     </div>
-    <div className="Project-content1 m-8">
-      <div className="Project-content">
+    <div className="Project-content1 m-8 w-3/6 inline-block bg-[#e6b45a] text-white">
+      <div className="Project-content inline-block w-[70%] mr-20">
         <div className="Project-Github">
           <Link
             href="https://www.github.com/aanglin/coinflipper"
@@ -294,7 +294,7 @@ export default function Projects() {
           title="Coinflipper"
           >
           <a
-          className="Project-Portfolio4 m-32"
+          className="Project-Portfolio4 m-32 w-full"
           target="_blank"
           rel="noreferrer">
           <Image 
@@ -307,7 +307,7 @@ export default function Projects() {
         </Link>
       </div>
 
-      <div className="Project-content">
+      <div className="Project-content inline-block w-[70%] mr-20">
         <Slide>
         <p className="Project-description text-center pl-64">
           

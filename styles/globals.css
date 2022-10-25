@@ -103,29 +103,29 @@ a:hover{
 } */
 
 .Project-title {
-  font-size: 4rem;
-  font-family: cursive;
+  /* font-size: 4rem; */
+   font-family: cursive; 
 }
 
 /* .Project-scroll {
   margin-bottom: 1rem;
 } */
 
-.Project-content {
+/* .Project-content {
   display: inline-block;
   width: 70%;
   margin-right: 75px;
-}
+} */
 
-.Project-content1 {
+/* .Project-content1 { 
   width: 50%;
   display: inline-block;
   background-color: #e6b45a;
   color: white;
-}
+ } */
 
-.Project-Portfolio4 {
+/* .Project-Portfolio4 {
   width: 100%;
-}
+} */
 
  

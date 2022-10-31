@@ -22,7 +22,7 @@ export default function Projects() {
       <div className="Project-content inline-block w-[70%] mr-20 ">
         <div className="Project-Github">
           <Link
-          href="https://www.github.com/aanglin/pokemon" 
+          href="https://www.github.com/aanglin/weather" 
           >
             <a 
           target="_blank" 
@@ -50,8 +50,8 @@ export default function Projects() {
         </div>
 
         <Link
-          href="https://aanglin.github.io/pokemon"
-          title="Pokemon"
+          href="https://weather-phi-olive.vercel.app/"
+          title="Weather App"
           >
           <a
           className="Project-Portfolio m-32"
@@ -59,7 +59,7 @@ export default function Projects() {
           rel="noreferrer"
           >
           <Image
-          src="/images/Pokemon.png"
+          src="/images/Weather.png"
           alt="..." 
           height={400}
           width={900}
@@ -71,8 +71,7 @@ export default function Projects() {
       <div className="Project-content inline-block w-[70%] mr-20">
           <Slide>
         <p className="Project-description text-center pl-64">
-          A pokemon card game that builds on the concepts of props and how
-          they are passed down from the parent element. Created with css.
+          A weather app that provides daily weather information and the background changes based on the weather. 
         </p>
         </Slide>
       </div>
@@ -141,7 +140,7 @@ export default function Projects() {
       <div className="Project-content inline-block w-[70%] mr-20">
         <div className="Project-Github">
           <Link
-          href="https://www.github.com/aanglin/colorbox" 
+          href="https://www.github.com/aanglin/Note-Taker" 
           >
             <a
             target="_blank" 
@@ -168,8 +167,8 @@ export default function Projects() {
           </Link>
         </div>
         <Link
-          href="https://aanglin.github.io/colorbox"
-          title="Colorbox"
+          href="https://aaron-notetaker.herokuapp.com/"
+          title="Note-taker"
         >
           <a
           className="Project-Portfolio2 m-32"
@@ -177,7 +176,7 @@ export default function Projects() {
           rel="noreferrer"
           >
           <Image
-          src="/images/Colorbox.png" 
+          src="/images/Notes.png" 
           alt="..."
           height={400}
           width={900}
@@ -189,11 +188,7 @@ export default function Projects() {
       <div className="Project-content inline-block w-[70%] mr-20">
         <Slide>
         <p className="Project-description text-center pl-64">
-        
-          This colorbox program made using react uses state and props and
-          event handlers. It is to showcase knowledge of how to change state
-          and parent and child components. It also had props in it. Some css
-          was used to style.
+         A note taker app where you can take notes and save them to access at any time!
         </p>
         </Slide>
       </div>
@@ -202,7 +197,7 @@ export default function Projects() {
       <div className="Project-content inline-block w-[70%] mr-20">
         <div className="Project-Github">
           <Link 
-          href="https://www.github.com/aanglin/dice"
+          href="https://www.github.com/aanglin/Fact-Fiction"
            >
             <a
             target="_blank" 
@@ -229,8 +224,8 @@ export default function Projects() {
           </Link>
         </div>
         <Link
-          href="https://aanglin.github.io/Dice"
-          title="Dice"
+          href="https://factorfiction.herokuapp.com/"
+          title="Fact 0r Fiction"
           
         >
           <a
@@ -239,7 +234,7 @@ export default function Projects() {
           rel="noreferrer"
           >
           <Image
-          src="/images/Dice.png" 
+          src="/images/FactorFiction.png" 
           alt="..." 
           height={400}
           width={900}
@@ -251,10 +246,7 @@ export default function Projects() {
       <div className="Project-content inline-block w-[70%] mr-20">
         <Slide>
         <p className="Project-description text-center pl-64">
-          
-          This dice program is a training reference for react using state. It
-          is to showcase knowledge of how to change state and parent and child
-          components. It also had props in it. Some css was used to style.{" "}
+          A fun game where you guess if the question asked is real or fake. Do you have what it takes!
         </p>
         </Slide>
       </div>
@@ -263,7 +255,7 @@ export default function Projects() {
       <div className="Project-content inline-block w-[70%] mr-20">
         <div className="Project-Github">
           <Link
-            href="https://www.github.com/aanglin/coinflipper"
+            href="https://www.github.com/aanglin/tech-2-blog"
             >
             <a
             target="_blank"
@@ -290,15 +282,15 @@ export default function Projects() {
           </Link>
         </div>
         <Link
-          href="https://aanglin.github.io/coinflipper"
-          title="Coinflipper"
+          href="https://tech-2-blog.herokuapp.com/"
+          title="Tech Blog"
           >
           <a
           className="Project-Portfolio4 m-32 w-full"
           target="_blank"
           rel="noreferrer">
           <Image 
-          src="/images/Coinflipper.png" 
+          src="/images/techBlog.png" 
           alt="..."
           height={400}
           width={900}
@@ -310,10 +302,7 @@ export default function Projects() {
       <div className="Project-content inline-block w-[70%] mr-20">
         <Slide>
         <p className="Project-description text-center pl-64">
-          
-          This coin flipper program builds upon the fundamentals of react by
-          using state and props. It was to further training on how to change
-          state and parent and child components. Css was used to style.
+          A place where you can have conversations about topics and comment on others topics. 
         </p>
         </Slide>
       </div>

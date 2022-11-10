@@ -80,7 +80,7 @@ export default function Projects() {
       <div className="Project-content inline-block w-[70%] mr-20">
         <div className="Project-Github">
           <Link
-           href="https://www.github.com/aanglin/lotto" 
+           href="https://www.github.com/aanglin/recipe" 
            >
             <a
              target="_blank" 
@@ -107,9 +107,9 @@ export default function Projects() {
           </Link>
         </div>
         <Link
-          href="https://aanglin.github.io/lotto"
+          href="https://recipe-jet.vercel.app/"
           
-          title="Lotto"
+          title="Recipe"
         >
           <a 
           className="Project-Portfolio1 m-32"
@@ -117,7 +117,7 @@ export default function Projects() {
           rel="noreferrer"
           >
           <Image
-          src="/images/Lotto.png" 
+          src="/images/recipe.png" 
           alt="..."
           height={400}
           width={900}
@@ -129,9 +129,7 @@ export default function Projects() {
       <div className="Project-content inline-block w-[70%] mr-20">
         <Slide>
         <p className="Project-description text-center pl-64">
-          This lotto program is a training reference for react using state and
-          props. It was to further training on React State Patterns. Some
-          basic css was used to style.
+         Tired of not knowing what to cook. Look no further. This app let's you find recipes to cook and also to add your own to save. Give it a try.
         </p>
         </Slide>
       </div>
